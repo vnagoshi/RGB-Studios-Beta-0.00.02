@@ -8,6 +8,6 @@
 	background-color: #b3b3e6;
 }
 
-* {
+*:not(.content-box-red):not(.content-box-green):not(.content-box-blue) {
 	-webkit-tap-highlight-color: #b3b3e6;
 }
