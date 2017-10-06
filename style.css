@@ -129,6 +129,15 @@ img {/*TODO NOT WORKING*/
 }
 
 /* Footer */
+.footer-menu {
+  margin: 0 0 !important;
+  background-color: #333 !important;
+  border-radius: 0 !important;
+}
+.footer-break {
+  height: 3px;
+  background-color: white;
+}
 .footer-text {
   color: white !important;
   font-size: 4vmin;
