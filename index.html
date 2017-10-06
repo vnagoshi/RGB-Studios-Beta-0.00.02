@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
-  <link href="style.css" rel="stylesheet">
+  <link  rel="stylesheet" href="style.css">
+  <link id="theme" rel="stylesheet" href="">
 
   <!-- Chrome, Firefox OS and Opera -->
   <meta id="meta1" name="theme-color" content="#999">
@@ -142,6 +143,10 @@
   var colors = ["#c66", "#6c6", "#66c"];
   var lightColors = ["#e6b3b3", "#b3e6b3", "#b3b3e6"];
   var randColor = random(0, 2);
+  var styles = ["red", "green", "blue"];
+
+  document.getElementById("theme").href = "assets/themes/" + styles[randColor] + ".css";
+
   document.getElementById("meta1").content = colors[randColor];
   document.getElementById("meta2").content = colors[randColor];
   document.getElementById("meta3").content = colors[randColor];

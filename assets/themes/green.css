@@ -1,0 +1,13 @@
+::selection {
+	color: #333;
+	background-color: #b3e6b3;
+}
+
+::-moz-selection {
+	color: #333; 
+	background-color: #b3e6b3;
+}
+
+* {
+	-webkit-tap-highlight-color: #b3e6b3;
+}
