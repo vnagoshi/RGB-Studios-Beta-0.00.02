@@ -1,99 +1,146 @@
+/* Font Loader */
 @font-face {
   font-family:MatrixBoldSmallCaps;
   src:url(assets/fonts/MatrixBoldSmallCaps.ttf);
 }
-@font-face {
+@font-face { /*Unused*/
   font-family:Roboto-Regular;
   src:url(assets/fonts/Roboto-Regular.ttf);
 }
 
+/* General Setup */
 * {
   font-family: MatrixBoldSmallCaps !important;
 }
-
-img {
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
-
 body {
   background-color: #333;
 }
-
-.nav-item {
-  font-size: 4vmin;
-
+img {/*TODO NOT WORKING*/
+  user-drag: none !important;
+  user-select: none !important;
+  -moz-user-select: none !important;
+  -webkit-user-drag: none !important;
+  -webkit-user-select: none !important;
+  -ms-user-select: none !important;
 }
-.nav-item-1:hover {
+.no-ui-lines {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Header */
+.header-menu {
+  margin: 0 0 !important;
+  background-color: #333 !important;
+}
+.header-text {
+  color: #fff !important;
+  font-size: 3vmin !important;
+}
+.menu-item {
+  padding: 12px 16px !important;
+}
+.menu-image {
+  height: 4vmin !important;
+}
+.red-hover:hover {
   background-color: #933 !important;
 }
-.nav-item-2:hover {
+.green-hover:hover {
   background-color: #393 !important;
 }
-.nav-item-3:hover {
+.blue-hover:hover {
   background-color: #339 !important;
 }
-.active-nav-item-1 {
+.red-active {
   background-color: #933 !important;
 }
-
-.project-link {
-  height: 100%;
-  cursor: pointer;
-  color: #fff !important;
-  background: none !important;
-  border: 5px solid #ad8585 !important;
+.green-active {
+  background-color: #393 !important;
+}
+.blue-active {
+  background-color: #339 !important;
 }
 
-.project-link:hover {
-  background-color: #ad8585 !important;
+/* Banner */
+.rgb-banner {
+  width: 100%;
+  height: 100px;
+  background-image: url("assets/banner-plain(2).svg");
+  background-size: 100% auto;
 }
-
-.project-link-2 {
-  height: 100%;
-  cursor: pointer;
-  color: #fff !important;
-  background: none !important;
-  border: 5px solid #8585ad !important;
-}
-
-.project-link-2:hover {
-  background-color: #8585ad !important;
-}
-
-.project-link-3 {
-  height: 100%;
-  cursor: pointer;
-  color: #fff !important;
-  background: none !important;
-  border: 5px solid #85ad85 !important;
-}
-
-.project-link-3:hover {
-  background-color: #85ad85 !important;
-}
-
-#headerLogo {
+.rgb-banner-icon {
+  height: 60px;
+  margin-top: 12px;
   transition:transform 1s ease-out;
-  -webkit-transition:-webkit-transform 1s ease-out
+  -webkit-transition:-webkit-transform 1s ease-out;
 }
-#headerLogo:hover {
+.rgb-banner-icon:hover {
   transform:rotate(360deg);
   -webkit-transform:rotate(360deg);
-  -ms-transform:rotate(360deg)
+  -ms-transform:rotate(360deg);
+}
+.rgb-banner-text {
+  font-size: 48pt;
+  color: #333;
+  display: inline-block;
 }
 
-.scaling-image {
-  transition:transform .25s ease-in-out;
-  -webkit-transition:-webkit-transform .25s ease-in-out
+/* Content */
+.content-grid {
+  margin: 0 0 !important;
+  padding: 30px !important;
+}
+.content-box-red {
+  height: 100%;
+  background: none !important;
+  border: 6px solid #ad8585 !important;
+}
+.content-box-green {
+  height: 100%;
+  background: none !important;
+  border: 6px solid #85ad85 !important;
+}
+.content-box-blue {
+  height: 100%;
+  background: none !important;
+  border: 6px solid #8585ad !important;
+}
+.content-box-red:hover {
+  background-color: #ad8585 !important;
+}
+.content-box-green:hover {
+  background-color: #85ad85 !important;
+}
+.content-box-blue:hover {
+  background-color: #8585ad !important;
+}
+.content-title {
+  margin-bottom: 0 !important;
+  color: #fff !important;
+  font-size: 6vmin !important;
+}
+.content-description {
+  color: #fff !important;
+  font-size: 3vmin !important;
+}
+.content-icon {
+  height: 48px !important;
 }
 
-.scaling-image:hover {
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
+/* Footer */
+.footer-text {
+  color: white !important;
+  font-size: 4vmin;
+  display: inline-block !important;
+}
+.footer-text:hover {
+  text-decoration: underline;
+}
+.footer-image {
+  height: 6vmin !important;
+  display: inline-block !important;
+}
+.hover-connect:hover .footer-text {
+  text-decoration: underline;
 }
