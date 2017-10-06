@@ -1,0 +1,99 @@
+@font-face {
+  font-family:MatrixBoldSmallCaps;
+  src:url(assets/fonts/MatrixBoldSmallCaps.ttf);
+}
+@font-face {
+  font-family:Roboto-Regular;
+  src:url(assets/fonts/Roboto-Regular.ttf);
+}
+
+* {
+  font-family: MatrixBoldSmallCaps !important;
+}
+
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+body {
+  background-color: #333;
+}
+
+.nav-item {
+  font-size: 4vmin;
+
+}
+.nav-item-1:hover {
+  background-color: #933 !important;
+}
+.nav-item-2:hover {
+  background-color: #393 !important;
+}
+.nav-item-3:hover {
+  background-color: #339 !important;
+}
+.active-nav-item-1 {
+  background-color: #933 !important;
+}
+
+.project-link {
+  height: 100%;
+  cursor: pointer;
+  color: #fff !important;
+  background: none !important;
+  border: 5px solid #ad8585 !important;
+}
+
+.project-link:hover {
+  background-color: #ad8585 !important;
+}
+
+.project-link-2 {
+  height: 100%;
+  cursor: pointer;
+  color: #fff !important;
+  background: none !important;
+  border: 5px solid #8585ad !important;
+}
+
+.project-link-2:hover {
+  background-color: #8585ad !important;
+}
+
+.project-link-3 {
+  height: 100%;
+  cursor: pointer;
+  color: #fff !important;
+  background: none !important;
+  border: 5px solid #85ad85 !important;
+}
+
+.project-link-3:hover {
+  background-color: #85ad85 !important;
+}
+
+#headerLogo {
+  transition:transform 1s ease-out;
+  -webkit-transition:-webkit-transform 1s ease-out
+}
+#headerLogo:hover {
+  transform:rotate(360deg);
+  -webkit-transform:rotate(360deg);
+  -ms-transform:rotate(360deg)
+}
+
+.scaling-image {
+  transition:transform .25s ease-in-out;
+  -webkit-transition:-webkit-transform .25s ease-in-out
+}
+
+.scaling-image:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}

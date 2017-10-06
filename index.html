@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/png" href="assets/icons/rgb/rgb-icon-64.png"/>
+  <title>RBG Studios</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta id="meta1" name="theme-color" content="#999">
+  <!-- Windows Phone -->
+  <meta id="meta2" name="msapplication-navbutton-color" content="#999">
+  <!-- iOS Safari -->
+  <meta id="meta3" name="apple-mobile-web-app-status-bar-style" content="#999">
+</head>
+<body>
+
+<!--Header-->
+
+<div class="ui stackable borderless menu" style="background-color: #333;border-radius: 0;border: none; margin: 0 0">
+  <a name="top"></a>
+  <a href="#" class="active-nav-item-1"><div class="item nav-item" style="padding: 12px 16px;color: white">
+    <p style="font-size: 3vmin">Home</p>
+  </div></a>
+  <a href="#" class="nav-item-2"><div class="item nav-item" style="padding: 12px 16px;color: white">
+    <p style="font-size: 3vmin">New Projects</p>
+  </div></a>
+  <a href="#" class="nav-item-3"><div class="item nav-item" style="padding: 12px 16px;color: white">
+    <p style="font-size: 3vmin">Contact</p>
+  </div></a>
+  <a href="#" class="nav-item-1"><div class="item nav-item" style="padding: 12px 16px;color: white;">
+    <p style="font-size: 3vmin">About</p>
+  </div></a>
+
+  <a href="#" class="fitted right item nav-item-3"><div class="right item nav-item" style="padding: 12px 16px;color: white;">
+    <img class="ui image" src="assets/icons/social/facebook.svg" style="height: 4vmin">
+  </div></a>
+  <a href="#" class="nav-item-1"><div class="item nav-item" style="padding: 12px 16px;color: white;">
+
+    <img class="ui image" src="assets/icons/social/youtube.svg" style="height: 4vmin">
+  </div></a>
+</div>
+
+<!--Social Banner-->
+<div class="ui three column equal width grid" style="margin: 0 0">
+  <div class="column" style="background-color: #c66;">
+  </div>
+  <div class="column" style="background-color: #6c6;padding-bottom: 0;">
+    <img class="ui left floated image" id="headerLogo" src="assets/icons/rgb/rgb-icon.svg" style="height: 60px;">
+    <p style="text-align: left;font-size: 6vmin;color: #333">RGB Studios.org</p>
+  </div>
+  <div class="column" style="background-color: #66c;">
+
+  </div>
+</div>
+
+<!--Content-->
+<div class="ui three column stackable grid" style="padding: 30px; margin: 0 0">
+  <!--Row 1-->
+  <div class="column">
+    <div class="ui center aligned segment project-link-3">
+      <img src="assets/icons/project-link/games.svg" class="ui centered image" style="height: 48px;"></img>
+      <p style="font-size: 6vmin;">Games</p>
+      <p style="font-size: 3vmin;">Check out our games on chrome web apps, mobile apps, and webpages</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui center aligned segment link project-link-2">
+      <img src="assets/icons/project-link/themes.svg" class="ui centered image" style="height: 48px;"></img>
+      <p style="font-size: 6vmin;">Themes</p>
+      <p style="font-size: 3vmin;">Our collection of Chrome and Firefox themes to spruce up your browser</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui center aligned segment link project-link">
+      <img src="assets/icons/project-link/utilities.svg" class="ui centered image" style="height: 48px;"></img>
+      <p style="font-size: 6vmin;">Utilities</p>
+      <p style="font-size: 3vmin;">From logic circuits to statistics, check out our handy applications</p>
+    </div>
+  </div>
+  <!--Row 2-->
+  <div class="column">
+    <div class="ui center aligned segment link project-link-2" onclick="window.open('DnD','_self')">
+      <img src="assets/icons/project-link/dnd.svg" class="ui centered image" style="height: 48px;"></img>
+      <p style="font-size: 6vmin;">DnD</p>
+      <p style="font-size: 3vmin;">Dungeons and Dragons apps and utilities to aid in your adventure</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui center aligned segment project-link">
+      <img src="assets/icons/project-link/AmVs.svg" class="ui centered image" style="height: 48px;"></img>
+      <p style="font-size: 6vmin;">AMVs</p>
+      <p style="font-size: 3vmin;">All of our AMVs, all of which are on our YouTube channel</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui center aligned segment link project-link-3">
+      <img src="assets/icons/project-link/learn.svg" class="ui centered image" style="height: 48px;"></img>
+      <p style="font-size: 6vmin;">Learn</p>
+      <p style="font-size: 3vmin;">Learn some web development basics with walkthrough articles and youtube tutorials</p>
+    </div>
+  </div>
+</div>
+
+
+<!--Footer-->
+<hr style="color: white">
+<div class="ui stackable borderless three item menu" style="background-color: #333;border-radius: 0;border: none;margin: 0 0">
+  <div class="item nav-item" style="color: white">
+    <div class="ui left floated text">Contact&nbsp;</div>
+    <img class="ui image" src="assets/icons/social/mail-closed-new.svg" style="height: 6vmin;cursor: pointer" onmouseover="this.src='assets/icons/social/mail-open-new.svg';" onmouseout="this.src='assets/icons/social/mail-closed-new.svg';" onclick="window.open('mailto:support@rgbstudios.org?Subject=Regarding%20RGB%20Studios');">
+  </div>
+  <div class="item nav-item" style="color: white">
+    <a href="#top" style="color: white">Back to top</a>
+  </div>
+  <div class="item nav-item" style="color: white">
+    <img class="ui image" src="assets/icons/rgb/rgb-icon.svg" style="height: 6vmin">
+    <div class="text">RGB Studios</div>
+  </div>
+</div>
+
+<script>
+  var colors = ["#c66", "#6c6", "#66c"];
+  var randColor = random(0, 2);
+  document.getElementById("meta1").content = colors[randColor];
+  document.getElementById("meta2").content = colors[randColor];
+  document.getElementById("meta3").content = colors[randColor];
+
+  function random(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+</script>
+</body>
+</html>
