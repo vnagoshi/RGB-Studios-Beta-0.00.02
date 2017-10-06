@@ -8,6 +8,6 @@
 	background-color: #e6b3b3;
 }
 
-/**:not(a):not(.content-box-red):not(.content-box-green):not(.content-box-blue) {*/
-	/*-webkit-tap-highlight-color: #e6b3b3;*/
-/*}*/
+* {
+	-webkit-tap-highlight-color: rgba(204, 102, 102, 0.6);
+}
