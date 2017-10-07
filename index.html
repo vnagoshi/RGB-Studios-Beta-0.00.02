@@ -9,7 +9,6 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
   <link  rel="stylesheet" href="style.css">
   <link id="theme" rel="stylesheet" href="">
-
   <!-- Chrome, Firefox OS and Opera -->
   <meta id="meta1" name="theme-color" content="#999">
   <!-- Windows Phone -->
@@ -19,8 +18,11 @@
 </head>
 <body>
 <!-- TODO -->
-<!--todo select b3b3e6-->
-<!--Fix DnD page-->
+
+<!--Link References-->
+<!--mailto:support@rgbstudios.org?Subject=Regarding%20RGB%20Studios-->
+<!--https://www.facebook.com/rgbstudios.org-->
+<!--https://www.youtube.com/channel/UCW5yNQej45V4LDdZymAezZQ-->
 
 <!--Header-->
 <div class="ui stackable borderless menu no-ui-lines header-menu">
@@ -29,22 +31,26 @@
   <a class="fitted item menu-item red-hover red-active" href="./">
     <p class="header-text">Home</p>
   </a>
-  <a class="fitted item menu-item green-hover" href="#"><!--TODO href-->
+  <a class="fitted item menu-item green-hover" href="New%20Projects">
     <p class="header-text">New Projects</p>
   </a>
-  <a class="fitted item menu-item blue-hover" href="#"><!--TODO href-->
-    <p class="header-text">Contact</p>
-  </a>
-  <a class="fitted item menu-item red-hover" href="#"><!--TODO href-->
-    <p class="header-text">About</p>
+  <a class="fitted item menu-item blue-hover" href="About%20Us">
+    <p class="header-text">About Us</p>
   </a>
   <!-- Header Social Buttons -->
-  <a class="fitted right item menu-item blue-hover" href="https://www.facebook.com/rgbstudios.org" target="_blank">
-    <img class="ui image menu-image" src="assets/icons/social/facebook.svg">
-  </a>
-  <a class="fitted item menu-item red-hover" href="https://www.youtube.com/channel/UCW5yNQej45V4LDdZymAezZQ" target="_blank">
-    <img class="ui image menu-image" src="assets/icons/social/youtube.svg">
-  </a>
+  <div class="fitted right item">
+    <div class="ui three column grid no-ui-lines header-menu">
+      <a class="column menu-item green-hover" title="Email Us" href="mailto:support@rgbstudios.org?Subject=Regarding%20RGB%20Studios" onmouseover="document.getElementById('header-contact-icon').src='assets/icons/social/mail-open.svg';" onmouseout="document.getElementById('header-contact-icon').src='assets/icons/social/mail-closed.svg';">
+        <img class="ui image menu-image" id="header-contact-icon" src="assets/icons/social/mail-closed.svg">
+      </a>
+      <a class="column menu-item blue-hover" title="Facebook" href="https://www.facebook.com/rgbstudios.org" target="_blank">
+        <img class="ui image menu-image" src="assets/icons/social/facebook.svg">
+      </a>
+      <a class="column menu-item red-hover" title="YouTube" href="https://www.youtube.com/channel/UCW5yNQej45V4LDdZymAezZQ" target="_blank">
+        <img class="ui image menu-image" src="assets/icons/social/youtube.svg">
+      </a>
+    </div>
+  </div>
 </div>
 
 <!--Social Banner-->
@@ -57,9 +63,9 @@
 
 <!--Content-->
 <div class="ui three column stackable grid no-ui-lines content-grid">
-  <!--Row 1-->
+  <!--Row 1 gbr-->
   <div class="column">
-    <a href="#"><!--TODO href-->
+    <a href="Games">
       <div class="ui center aligned segment content-box-green">
         <img class="ui centered image content-icon" src="assets/icons/project-link/games.svg"></img>
         <p class="content-title">Games</p>
@@ -68,7 +74,7 @@
     </a>
   </div>
   <div class="column">
-    <a href="#"><!--TODO href-->
+    <a href="Themes">
       <div class="ui center aligned segment content-box-blue">
         <img class="ui centered image content-icon" src="assets/icons/project-link/themes.svg"></img>
         <p class="content-title">Themes</p>
@@ -77,17 +83,17 @@
     </a>
   </div>
   <div class="column">
-    <a href="#"><!--TODO href-->
+    <a href="Utilities">
       <div class="ui center aligned segment content-box-red">
         <img class="ui centered image content-icon" src="assets/icons/project-link/utilities.svg"></img>
         <p class="content-title">Utilities</p>
-        <p class="content-description">From logic circuits to statistics, check out our handy applications</p>
+        <p class="content-description">Useful tools from calculators to clocks, check out our handy applications</p>
       </div>
     </a>
   </div>
-  <!--Row 2-->
+  <!--Row 2 grb-->
   <div class="column">
-    <a href="DnD"><!--TODO finalize href-->
+    <a href="DnD">
       <div class="ui center aligned segment content-box-blue">
         <img class="ui centered image content-icon" src="assets/icons/project-link/dnd.svg"></img>
         <p class="content-title">DnD</p>
@@ -96,7 +102,7 @@
     </a>
   </div>
   <div class="column">
-    <a href="#"><!--TODO href-->
+    <a href="AMVs">
       <div class="ui center aligned segment content-box-red">
         <img class="ui centered image content-icon" src="assets/icons/project-link/amvs.svg"></img>
         <p class="content-title">AMVs</p>
@@ -105,7 +111,7 @@
     </a>
   </div>
   <div class="column">
-    <a href="#"><!--TODO href-->
+    <a href="Learn">
       <div class="ui center aligned segment content-box-green">
         <img class="ui centered image content-icon" src="assets/icons/project-link/learn.svg"></img>
         <p class="content-title">Learn</p>
@@ -120,9 +126,9 @@
 <div class="ui stackable borderless three item menu no-ui-lines footer-menu">
   <!--Contact Button-->
   <div class="item">
-    <a class="hover-connect" href="mailto:support@rgbstudios.org?Subject=Regarding%20RGB%20Studios">
+    <a class="hover-connect" href="mailto:support@rgbstudios.org?Subject=Regarding%20RGB%20Studios" onmouseover="document.getElementById('footer-contact-icon').src='assets/icons/social/mail-open.svg';" onmouseout="document.getElementById('footer-contact-icon').src='assets/icons/social/mail-closed.svg';">
       <p class="footer-text">Contact</p>
-      <img class="ui image footer-image" src="assets/icons/social/mail-closed-new.svg" onmouseover="this.src='assets/icons/social/mail-open-new.svg';" onmouseout="this.src='assets/icons/social/mail-closed-new.svg';">
+      <img class="ui image footer-image" id="footer-contact-icon" src="assets/icons/social/mail-closed.svg" onmouseover="this.src='assets/icons/social/mail-open.svg';" onmouseout="this.src='assets/icons/social/mail-closed.svg';">
     </a>
   </div>
   <!--Page Top Button-->
@@ -146,7 +152,6 @@
   var styles = ["red", "green", "blue"];
 
   document.getElementById("theme").href = "assets/themes/" + styles[randColor] + ".css";
-
   document.getElementById("meta1").content = colors[randColor];
   document.getElementById("meta2").content = colors[randColor];
   document.getElementById("meta3").content = colors[randColor];

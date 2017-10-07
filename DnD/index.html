@@ -2,115 +2,121 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/png" href="../assets/icons/rgb/rgb-icon-64.png"/>
   <title>DnD | RGB Studios</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
   <link href="../style.css" rel="stylesheet">
+  <link id="theme" rel="stylesheet" href="">
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta id="meta1" name="theme-color" content="#999">
+  <!-- Windows Phone -->
+  <meta id="meta2" name="msapplication-navbutton-color" content="#999">
+  <!-- iOS Safari -->
+  <meta id="meta3" name="apple-mobile-web-app-status-bar-style" content="#999">
 </head>
 <body>
 
 <!--Header-->
-
-<div class="ui stackable borderless menu" style="background-color: #333;border-radius: 0;border: none; margin: 0 0">
+<div class="ui stackable borderless menu no-ui-lines header-menu">
   <a name="top"></a>
-  <a href="../" class="nav-item-1"><div class="item nav-item" style="padding: 12px 16px;color: white">
-    <p style="font-size: 3vmin">Home</p>
-  </div></a>
-  <a href="#" class="nav-item-2"><div class="item nav-item" style="padding: 12px 16px;color: white">
-    <p style="font-size: 3vmin">New Projects</p>
-  </div></a>
-  <a href="#" class="nav-item-3"><div class="item nav-item" style="padding: 12px 16px;color: white">
-    <p style="font-size: 3vmin">Contact</p>
-  </div></a>
-  <a href="#" class="nav-item-1"><div class="item nav-item" style="padding: 12px 16px;color: white;">
-    <p style="font-size: 3vmin">About</p>
-  </div></a>
+  <!-- Header Main Buttons -->
+  <a class="fitted item menu-item red-hover" href="../">
+    <p class="header-text">Home</p>
+  </a>
+  <a class="fitted item menu-item green-hover" href="../New%20Projects">
+    <p class="header-text">New Projects</p>
+  </a>
+  <a class="fitted item menu-item blue-hover" href="../About%20Us">
+    <p class="header-text">About Us</p>
+  </a>
+  <!-- Header Social Buttons -->
+  <div class="fitted right item">
+    <div class="ui three column grid no-ui-lines header-menu">
+      <a class="column menu-item green-hover" title="Email Us" href="mailto:support@rgbstudios.org?Subject=Regarding%20RGB%20Studios" onmouseover="document.getElementById('header-contact-icon').src='../assets/icons/social/mail-open.svg';" onmouseout="document.getElementById('header-contact-icon').src='../assets/icons/social/mail-closed.svg';">
+        <img class="ui image menu-image" id="header-contact-icon" src="../assets/icons/social/mail-closed.svg">
+      </a>
+      <a class="column menu-item blue-hover" title="Facebook" href="https://www.facebook.com/rgbstudios.org" target="_blank">
+        <img class="ui image menu-image" src="../assets/icons/social/facebook.svg">
+      </a>
+      <a class="column menu-item red-hover" title="YouTube" href="https://www.youtube.com/channel/UCW5yNQej45V4LDdZymAezZQ" target="_blank">
+        <img class="ui image menu-image" src="../assets/icons/social/youtube.svg">
+      </a>
+    </div>
+  </div>
 </div>
 
 <!--Social Banner-->
-<div class="ui three column equal width grid" style="margin: 0 0">
-  <div class="column" style="background-color: #c66;">
-    <div class="ui middle aligned content">
-      <img class="ui centered image scaling-image" src="../assets/icons/social/youtube.svg" style="height: 80px;cursor: pointer" onclick="window.open('https://www.youtube.com/channel/UCW5yNQej45V4LDdZymAezZQ');">
-    </div>
-  </div>
-  <div class="column" style="background-color: #6c6;padding-bottom: 0;">
-    <img class="ui centered image" id="headerLogo" src="../assets/icons/rgb/rgb-icon.svg" style="height: 60px;">
-    <p style="text-align: center;font-size: 6vmin;font-family: MatrixBoldSmallCaps;">RGB Studios.org</p>
-  </div>
-  <div class="column" style="background-color: #66c;">
-    <div class="ui middle aligned content">
-      <img class="ui centered image scaling-image" src="../assets/icons/social/facebook.svg" style="height: 80px;cursor: pointer" onclick="window.open('https://www.facebook.com/rgbstudios.org');">
-      <div class="ui centered segement" style="text-align: center">
-        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Frgbstudios.org%2F&width=100&layout=standard&action=like&size=small&show_faces=false&share=true&height=35&appId" width="100" height="35" style="border:none;overflow:hidden;margin-top: 10px"  scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-      </div>
-    </div>
+<div class="rgb-banner-with-subtitle">
+  <div class="ui center aligned container">
+    <img class="rgb-banner-icon" src="../assets/icons/rgb/rgb-icon.svg">
+    <p class="rgb-banner-text">RGB Studios.org</p>
+    <p class="rgb-banner-subtext">DnD</p>
   </div>
 </div>
 
 <!--Content-->
-
-<div class="ui three column stackable grid" style="padding: 30px; margin: 0 0">
+<div class="ui three column stackable grid no-ui-lines content-grid">
+  <!--Row 1 gbr-->
   <div class="column">
-    <div class="ui center aligned segment link project-link-3" style="border: none;box-shadow: none">
-      <p style="font-family: MatrixBoldSmallCaps;font-size: 6vmin;">Learn</p>
-      <p style="font-family: MatrixBoldSmallCaps;font-size: 3vmin;">Description</p>
-    </div>
+    <a href="http://rgbstudios.org/dndDice/" target="_blank"><!--TODO href update-->
+      <div class="ui center aligned segment content-box-green">
+        <img class="content-icon" src="../assets/icons/dnd/dnd_icon.svg"></img>
+        <p class="content-title-inline">&nbsp;Dice Roller</p>
+        <p class="content-description">DnD Dice is a website that lets you track all of your die results for DnD (or similar games)</p>
+      </div>
+    </a>
   </div>
   <div class="column">
-    <div class="ui center aligned segment link project-link-2" style="border: none;box-shadow: none">
-      <p style="font-family: MatrixBoldSmallCaps;font-size: 6vmin;">Learn</p>
-      <p style="font-family: MatrixBoldSmallCaps;font-size: 3vmin;">Description</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="ui center aligned segment link project-link" style="border: none;box-shadow: none">
-      <p style="font-family: MatrixBoldSmallCaps;font-size: 6vmin;">Learn</p>
-      <p style="font-family: MatrixBoldSmallCaps;font-size: 3vmin;">Description</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="ui center aligned segment link project-link-2" style="border: none;box-shadow: none">
-      <p style="font-family: MatrixBoldSmallCaps;font-size: 6vmin;">Learn</p>
-      <p style="font-family: MatrixBoldSmallCaps;font-size: 3vmin;">Description</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="ui center aligned segment link project-link" style="border: none;box-shadow: none">
-      <p style="font-family: MatrixBoldSmallCaps;font-size: 6vmin;">Learn</p>
-      <p style="font-family: MatrixBoldSmallCaps;font-size: 3vmin;">Description</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="ui center aligned segment link project-link-3" style="border: none;box-shadow: none">
-      <p style="font-family: MatrixBoldSmallCaps;font-size: 6vmin;">Learn</p>
-      <p style="font-family: MatrixBoldSmallCaps;font-size: 3vmin;">Description</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="ui center aligned segment link project-link" style="border: none;box-shadow: none">
-      <p style="font-family: MatrixBoldSmallCaps;font-size: 6vmin;">Learn</p>
-      <p style="font-family: MatrixBoldSmallCaps;font-size: 3vmin;">Description</p>
-    </div>
+    <a href="http://rgbstudios.org/dndDice/charCreate.html" target="_blank"><!--TODO href update-->
+      <div class="ui center aligned segment content-box-blue">
+        <img class="content-icon" src="../assets/icons/dnd/dnd_icon.svg"></img><!--TODO unique icon-->
+        <p class="content-title-inline">&nbsp;Character Creator</p>
+        <p class="content-description">Placeholder</p><!--TODO description-->
+      </div>
+    </a>
   </div>
 </div>
-
 
 <!--Footer-->
-<hr style="color: white">
-<div class="ui stackable borderless three item menu" style="background-color: #333;border-radius: 0;border: none;margin: 0 0">
-  <div class="item nav-item" style="color: white">
-    <div class="ui left floated text">Contact</div>
-    <img class="ui small image" src="../assets/icons/social/email-closed.svg" style="height: 6vmin;cursor: pointer" onmouseover="this.src='../assets/icons/social/email-open.svg';" onmouseout="this.src='../assets/icons/social/email-closed.svg';" onclick="window.open('mailto:support@rgbstudios.org?Subject=Regarding%20RGB%20Studios');">
+<hr class="footer-break">
+<div class="ui stackable borderless three item menu no-ui-lines footer-menu">
+  <!--Contact Button-->
+  <div class="item">
+    <a class="hover-connect" href="mailto:support@rgbstudios.org?Subject=Regarding%20RGB%20Studios" onmouseover="document.getElementById('footer-contact-icon').src='../assets/icons/social/mail-open.svg';" onmouseout="document.getElementById('footer-contact-icon').src='../assets/icons/social/mail-closed.svg';">
+      <p class="footer-text">Contact</p>
+      <img class="ui image footer-image" id="footer-contact-icon" src="../assets/icons/social/mail-closed.svg" onmouseover="this.src='../assets/icons/social/mail-open.svg';" onmouseout="this.src='../assets/icons/social/mail-closed.svg';">
+    </a>
   </div>
-  <div class="item nav-item" style="color: white">
-    <a href="#top" style="color: white">Back to top</a>
+  <!--Page Top Button-->
+  <div class="item">
+    <a class="footer-text" href="#top">Back to top</a>
   </div>
-  <div class="item nav-item" style="color: white">
-    <img class="ui image" src="../assets/icons/rgb/rgb-icon.svg" style="height: 6vmin">
-    <div class="text">RGB Studios</div>
+  <!--RGB Studios Button-->
+  <div class="item">
+    <a class="hover-connect" href="../">
+      <img class="ui image footer-image" src="../assets/icons/rgb/rgb-icon.svg">
+      <p class="footer-text">RGB Studios</p>
+    </a>
   </div>
 </div>
+
+<!--Color Loading Scripts-->
+<script>
+  var colors = ["#c66", "#6c6", "#66c"];
+  var lightColors = ["#e6b3b3", "#b3e6b3", "#b3b3e6"];
+  var randColor = random(0, 2);
+  var styles = ["red", "green", "blue"];
+
+  document.getElementById("theme").href = "../assets/themes/" + styles[randColor] + ".css";
+  document.getElementById("meta1").content = colors[randColor];
+  document.getElementById("meta2").content = colors[randColor];
+  document.getElementById("meta3").content = colors[randColor];
+
+  function random(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+</script>
 </body>
 </html>
