@@ -1,0 +1,37 @@
+.table-label {
+  font-size: 1.2vmax;
+}
+.table-input {
+  width: 100%;
+}
+.table-button {
+  color: #000 !important;
+  width: 100%;
+  font-size: 1.2vmax !important;
+  font-weight: normal !important;
+}
+
+
+svg {
+  max-height: 7.5vw;
+}
+.die, .stroke {
+  stroke-width: 8;
+  stroke-linejoin: round;
+  stroke: #19194d; /*20%*/
+  fill: none;
+}
+.die {
+  fill: #8c8cd9; /*70%*/
+}
+.die:hover {
+  fill: #66c; /*60%*/
+}
+.die:hover, .die:active {
+  stroke: #d9d9f2; /*90%*/
+  cursor: pointer;
+  stroke-width: 10;
+}
+.die:active {
+  fill: #339; /*40%*/
+}

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/png" href="../../assets/icons/dnd/dnd_icon.svg"/><!--TODO png-->
+  <title>DnD Dice Roller | RGB Studios</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+  <link href="../../style.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link id="theme" rel="stylesheet" href="">
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta id="meta1" name="theme-color" content="#999">
+  <!-- Windows Phone -->
+  <meta id="meta2" name="msapplication-navbutton-color" content="#999">
+  <!-- iOS Safari -->
+  <meta id="meta3" name="apple-mobile-web-app-status-bar-style" content="#999">
+</head>
+<body>
+
+<!--Header-->
+<div class="ui stackable borderless menu no-ui-lines header-menu">
+  <a name="top"></a>
+  <!-- Header Main Buttons -->
+  <a class="fitted item menu-item red-hover" href="../">
+    <p class="header-text">Home</p>
+  </a>
+  <a class="fitted item menu-item green-hover" href="../New%20Projects">
+    <p class="header-text">New Projects</p>
+  </a>
+  <a class="fitted item menu-item blue-hover" href="../About%20Us">
+    <p class="header-text">About Us</p>
+  </a>
+  <!-- Header Social Buttons -->
+  <div class="fitted right item">
+    <div class="ui three column grid no-ui-lines header-menu">
+      <a class="column menu-item green-hover" title="Email Us" href="mailto:support@rgbstudios.org?Subject=Regarding%20RGB%20Studios" onmouseover="document.getElementById('header-contact-icon').src='../../assets/icons/social/mail-open.svg';" onmouseout="document.getElementById('header-contact-icon').src='../../assets/icons/social/mail-closed.svg';">
+        <img class="ui image menu-image" id="header-contact-icon" src="../../assets/icons/social/mail-closed.svg">
+      </a>
+      <a class="column menu-item blue-hover" title="Facebook" href="https://www.facebook.com/rgbstudios.org" target="_blank">
+        <img class="ui image menu-image" src="../../assets/icons/social/facebook.svg">
+      </a>
+      <a class="column menu-item red-hover" title="YouTube" href="https://www.youtube.com/channel/UCW5yNQej45V4LDdZymAezZQ" target="_blank">
+        <img class="ui image menu-image" src="../../assets/icons/social/youtube.svg">
+      </a>
+    </div>
+  </div>
+</div>
+
+<!--Social Banner-->
+<div class="rgb-banner-with-subtitle">
+  <div class="ui center aligned container">
+    <img class="rgb-banner-icon" src="../../assets/icons/rgb/rgb-icon.svg">
+    <p class="rgb-banner-text">RGB Studios.org</p>
+    <p class="rgb-banner-subtext">DnD Dice Roller</p>
+  </div>
+</div>
+
+<!--Content-->
+<script src="dice-script.js"></script>
+<table class="ui celled center aligned unstackable fixed table">
+  <tb>
+
+    <!--Dice Count Row-->
+    <tr>
+      <td class="table-label" colspan="3">Number of Dice</td>
+      <td>
+        <div class="ui input table-input">
+          <input id="numD4" onchange="update('D4')" type="number" value="1" min="0" max="100">
+        </div>
+        <p class="table-label" id="D4Label">1D4</p>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="numD6" onchange="update('D6')" type="number" value="1" min="0" max="100">
+        </div>
+        <p class="table-label" id="D6Label">1D6</p>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="numD8" onchange="update('D8')" type="number" value="1" min="0" max="100">
+        </div>
+        <p class="table-label" id="D8Label">1D8</p>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="numD12" onchange="update('D12')" type="number" value="1" min="0" max="100">
+        </div>
+        <p class="table-label" id="D12Label">1D12</p>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="numD20" onchange="update('D20')" type="number" value="1" min="0" max="100">
+        </div>
+        <p class="table-label" id="D20Label">1D20</p>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="numcustom" onchange="update('custom')" type="number" value="1" min="0" max="100">
+        </div>
+        <p class="table-label" id="customLabel">1D</p>
+      </td>
+    </tr>
+
+    <!--Dice Row-->
+    <tr>
+      <td class="table-label" colspan="3">Die</td>
+      <td><svg onclick="rollRaw(4, false)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 216">
+        <g class="die">
+          <path d="M108,108 L24.86,156 M108,12 L108,108 M191.14,156 L108,108
+				M108,12 L191.14,156 L24.86,156z"/>
+        </g>
+      </svg></td>
+      <td><svg onclick="rollRaw(6, false)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 216">
+        <g class="die">
+          <path d="M24.9,60 L108,108 M191.1,60 L 108,108 M108,204 L108,108
+				M191.1,60 L191.1,156 L108,204 L24.9,156 L24.9,60 L108,12z"/>
+        </g>
+      </svg></td>
+      <td><svg onclick="rollRaw(8, false)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 216">
+        <g class="die">
+          <path d="m24.86,60 L191.13,60 L108,204z
+				M24.86,156 L24.86,60 L108,12 L191.13,60 L191.14,156 L108,204z"/>
+        </g>
+      </svg></td>
+      <td><svg onclick="rollRaw(12, false)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 216">
+        <g class="die">
+          <path d="M157.88,50.4 L108.7,60.14 L58.12,50.4 L83.06,36 L136.5,36z
+				M157.88,50.4 L182.83,93.6 L149.57,132 L108.7,108.4 L108.33,108.61 L107.99,108 L108.7,60.14z
+				M182.83,93.6 L182.82,122.4 L157.88,165.6 L132.94,180 L149.57,132z
+				M149.57,132 L132.94,180 L83.08,180 L66.43,132 L108.33,108.61 L108.7,108.4z
+				M66.43,132 L83.08,180 L58.12,165.6 L33.18,122.4 L33.17,93.6z
+				M108.7,60.14 L107.99,108 L108.33,108.61 L66.43,132 L33.17,93.6 L58.12,50.4z"/>
+        </g>
+      </svg></td>
+      <td><svg onclick="rollRaw(20, false)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 216">
+        <g class="die">
+          <path d="M191.14,60 L191.14,156 L159.96,78z
+				M159.96,78 L191.14,156 L108,168z
+				M191.14,60 L159.96,78 L108,12z
+				M191.14,156 L108,204 L108,168z
+				M108,12 L159.96,78 L56.04,78z
+				M159.96,78 L108,168 L56.04,78z
+				M108,168 L108,204 L24.86,156z
+				M108,12 L56.04,78 L24.86,60z
+				M56.04,78 L108,168 L24.86,156z
+				M56.04,78 L24.86,156 L24.86,60z"/>
+        </g>
+      </svg></td>
+      <td>
+        <div class="ui input table-input">
+          <input id="customSides" onchange="update('custom')" type="number" value="10" min="2" max="1000">
+        </div>
+        <button class="ui button table-button" onclick="rollRaw(document.getElementById('customSides').value, true)" type="button">Roll Custom</button>
+      </td>
+    </tr>
+
+    <!--Modifiers Row-->
+    <tr class="modTR">
+      <td class="table-label" colspan="3">
+        <p>Modif&zwnj;iers</p>
+        <button class="ui button table-button" onclick="" type="button">Reset</button>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="D4Mod" onchange="update('D4')" type="number" value="0" min="-100" max="100">
+        </div>
+        <hr>
+        <p class="table-label">Attribute:</p>
+        <div class="ui form">
+          <select id="D4StatMod" onchange="update('D4')"> <option value="None">None</option> <option value="Str">Str</option> <option value="Dex">Dex</option> <option value="Con">Con</option> <option value="Int">Int</option> <option value="Wis">Wis</option> <option value="Cha">Cha</option> </select>
+        </div>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="D6Mod" onchange="update('D6')" type="number" value="0" min="-100" max="100">
+        </div>
+        <hr>
+        <p class="table-label">Attribute:</p>
+        <div class="ui form">
+          <select id="D6StatMod" onchange="update('D6')"> <option value="None">None</option> <option value="Str">Str</option> <option value="Dex">Dex</option> <option value="Con">Con</option> <option value="Int">Int</option> <option value="Wis">Wis</option> <option value="Cha">Cha</option> </select>
+        </div>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="D8Mod" onchange="update('D8')" type="number" value="0" min="-100" max="100">
+        </div>
+        <hr>
+        <p class="table-label">Attribute:</p>
+        <div class="ui form">
+          <select id="D8StatMod" onchange="update('D8')"> <option value="None">None</option> <option value="Str">Str</option> <option value="Dex">Dex</option> <option value="Con">Con</option> <option value="Int">Int</option> <option value="Wis">Wis</option> <option value="Cha">Cha</option> </select>
+        </div>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="D12Mod" onchange="update('D12')" type="number" value="0" min="-100" max="100">
+        </div>
+        <hr>
+        <p class="table-label">Attribute:</p>
+        <div class="ui form">
+          <select id="D12StatMod" onchange="update('D12')"> <option value="None">None</option> <option value="Str">Str</option> <option value="Dex">Dex</option> <option value="Con">Con</option> <option value="Int">Int</option> <option value="Wis">Wis</option> <option value="Cha">Cha</option> </select>
+        </div>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="D20Mod" onchange="update('D20')" type="number" value="0" min="-100" max="100">
+        </div>
+        <div class="ui form">
+          <select id="D20BonusMod" onchange="update('D20')"> <option value="None">None</option> <option value="Prf">Proficiency</option> <option value="Spl">Spell Atk</option> <option value="Itv">Initiative</option> </select>
+        </div>
+        <hr>
+        <p class="table-label">Attribute:</p>
+        <div class="ui form">
+          <select id="D20StatMod" onchange="update('D20')"> <option value="None">None</option> <option value="Str">Str</option> <option value="Dex">Dex</option> <option value="Con">Con</option> <option value="Int">Int</option> <option value="Wis">Wis</option> <option value="Cha">Cha</option> </select>
+        </div>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="customMod" onchange="update('custom')" type="number" value="0" min="-100" max="100">
+        </div>
+        <hr>
+        <p class="table-label">Attribute:</p>
+        <div class="ui form">
+          <select id="customStatMod" onchange="update('custom')"> <option value="None">None</option> <option value="Str">Str</option> <option value="Dex">Dex</option> <option value="Con">Con</option> <option value="Int">Int</option> <option value="Wis">Wis</option> <option value="Cha">Cha</option> </select>
+        </div>
+      </td>
+    </tr>
+
+    <!--Advantage Row-->
+    <tr class="modTR">
+      <td class="table-label" colspan="3">Advantage</td>
+      <td>
+        <div class="ui form">
+          <select id="D4Advantage" onchange="update('D4')"> <option value="None">None</option> <option value="Adv">Advantage</option> <option value="Dis">Disadvantage</option> </select>
+        </div>
+      </td>
+      <td>
+        <div class="ui form">
+          <select id="D6Advantage" onchange="update('D6')"> <option value="None">None</option> <option value="Adv">Advantage</option> <option value="Dis">Disadvantage</option> </select>
+        </div>
+      </td>
+      <td>
+        <div class="ui form">
+          <select id="D8Advantage" onchange="update('D8')"> <option value="None">None</option> <option value="Adv">Advantage</option> <option value="Dis">Disadvantage</option> </select>
+        </div>
+      </td>
+      <td>
+        <div class="ui form">
+          <select id="D12Advantage" onchange="update('D12')"> <option value="None">None</option> <option value="Adv">Advantage</option> <option value="Dis">Disadvantage</option> </select>
+        </div>
+      </td>
+      <td>
+        <div class="ui form">
+          <select id="D20Advantage" onchange="update('D20')"> <option value="None">None</option> <option value="Adv">Advantage</option> <option value="Dis">Disadvantage</option> </select>
+        </div>
+      </td>
+      <td>
+        <div class="ui form">
+          <select id="customAdvantage" onchange="update('custom')"> <option value="None">None</option> <option value="Adv">Advantage</option> <option value="Dis">Disadvantage</option> </select>
+        </div>
+      </td>
+    </tr>
+
+    <!--Multiplier Row-->
+    <tr class="modTR"><!--todo style="display:none;"-->
+      <td class="table-label" colspan="3">Multiplier</td>
+      <td>
+        <div class="ui form">
+          <form id="D4MultiplierRadio" onchange="update('D4')"> <input checked name="mod" type="radio" value="X"> <p style="display:inline;"><b>X</b></p> <br> <input name="mod" type="radio" value="/"> <p style="display:inline;"><b>/</b></p> </form>
+        </div>
+        <div class="ui input table-input">
+          <input id="D4Multiplier" onchange="update('D4')" type="number" value="1" min="-100" max="100">
+        </div>
+      </td>
+      <td>
+        <div class="ui form">
+          <form id="D6MultiplierRadio" onchange="update('D6')"> <input checked name="mod" type="radio" value="X"> <p style="display:inline;"><b>X</b></p> <br> <input name="mod" type="radio" value="/"> <p style="display:inline;"><b>/</b></p> </form>
+        </div>
+        <div class="ui input table-input">
+          <input id="D6Multiplier" onchange="update('D6')" type="number" value="1" min="-100" max="100">
+        </div>
+      </td>
+      <td>
+        <div class="ui form">
+          <form id="D8MultiplierRadio" onchange="update('D8')"> <input checked name="mod" type="radio" value="X"> <p style="display:inline;"><b>X</b></p> <br> <input name="mod" type="radio" value="/"> <p style="display:inline;"><b>/</b></p> </form>
+        </div>
+        <div class="ui input table-input">
+          <input id="D8Multiplier" onchange="update('D8')" type="number" value="1" min="-100" max="100">
+        </div>
+      </td>
+      <td>
+        <div class="ui form">
+          <form id="D12MultiplierRadio" onchange="update('D12')"> <input checked name="mod" type="radio" value="X"> <p style="display:inline;"><b>X</b></p> <br> <input name="mod" type="radio" value="/"> <p style="display:inline;"><b>/</b></p> </form>
+        </div>
+        <div class="ui input table-input">
+          <input id="D12Multiplier" onchange="update('D12')" type="number" value="1" min="-100" max="100">
+        </div>
+      </td>
+      <td>
+        <div class="ui form">
+          <form id="D20MultiplierRadio" onchange="update('D20')"> <input checked name="mod" type="radio" value="X"> <p style="display:inline;"><b>X</b></p> <br> <input name="mod" type="radio" value="/"> <p style="display:inline;"><b>/</b></p> </form>
+        </div>
+        <div class="ui input table-input">
+          <input id="D20Multiplier" onchange="update('D20')" type="number" value="1" min="-100" max="100">
+        </div>
+      </td>
+      <td>
+        <div class="ui form">
+          <form id="customMultiplierRadio" onchange="update('custom')"> <input checked name="mod" type="radio" value="X"> <p style="display:inline;"><b>X</b></p> <br> <input name="mod" type="radio" value="/"> <p style="display:inline;"><b>/</b></p> </form>
+        </div>
+        <div class="ui input table-input">
+          <input id="customMultiplier" onchange="update('custom')" type="number" value="1" min="-100" max="100">
+        </div>
+      </td>
+    </tr>
+
+    <!--Result Row-->
+    <tr>
+      <td class="table-label" colspan="3">Roll/Result</td>
+      <td>
+        <button class="ui button table-button" onclick="rollDie(4, false, false)" type="button">Roll</button>
+        <button class="ui button table-button" onclick="resetDie('D4');update('D4')"  type="button">Reset</button>
+        <div class="ui input table-input">
+          <input id="D4RawResult" readonly>
+        </div>
+      </td>
+      <td>
+        <button class="ui button table-button" onclick="rollDie(6, false, false)" type="button">Roll</button>
+        <button class="ui button table-button" onclick="resetDie('D6');update('D6')"  type="button">Reset</button>
+        <div class="ui input table-input">
+          <input id="D6RawResult" readonly>
+        </div></td>
+      <td>
+        <button class="ui button table-button" onclick="rollDie(8, false, false)" type="button">Roll</button>
+        <button class="ui button table-button" onclick="resetDie('D8');update('D8')"  type="button">Reset</button>
+        <div class="ui input table-input">
+          <input id="D8RawResult" readonly>
+        </div></td>
+      <td>
+        <button class="ui button table-button" onclick="rollDie(12, false, false)" type="button">Roll</button>
+        <button class="ui button table-button" onclick="resetDie('D12');update('D12')"  type="button">Reset</button>
+        <div class="ui input table-input">
+          <input id="D12RawResult" readonly>
+        </div></td>
+      <td>
+        <button class="ui button table-button" onclick="rollDie(20, false, false)" type="button">Roll</button>
+        <button class="ui button table-button" onclick="resetDie('D20');update('D20')"  type="button">Reset</button>
+        <div class="ui input table-input">
+          <input id="D20RawResult" readonly>
+        </div></td>
+      <td>
+        <button class="ui button table-button" onclick="rollDie(document.getElementById('customSides').value, true, false)" type="button">Roll</button>
+        <button class="ui button table-button" onclick="resetDie('custom');update('custom')" type="sumbit">Reset</button>
+        <div class="ui form table-input">
+          <input id="customRawResult" readonly>
+        </div>
+      </td>
+    </tr>
+
+    <!--Output Row-->
+    <tr class="modTR">
+      <td colspan="3">
+        <div class="ui two column grid">
+          <div class="column">
+            <button class="ui fluid button" onclick="rollAll()" type="button" class="sideButton">Roll All</button>
+          </div>
+          <div class="column">
+          <button class="ui fluid button" onclick="resetStats();updateAll()" type="button" class="sideButton">Reset Stats</button>
+          </div>
+          <div class="column">
+          <button class="ui fluid button" onclick="location.reload()" type="button" class="sideButton">Reset All</button> <!--refreshes page-->
+          </div>
+          <div class="column">
+          <button class="ui fluid button" onclick="toggleFullscreen()" type="button" class="sideButton">Toggle Fullscreen</button>
+          </div>
+          <div class="column">
+          <button class="ui fluid button" onclick="toggleCleanTheme()" type="button" class="sideButton">Toggle Theme</button>
+          </div>
+          <div class="column">
+            <div class="ui fluid form">
+              <input id="speak" type="checkbox"> <p style="display:inline;">Speak Results</p>
+            </div>
+          </div>
+        </div>
+
+      </td>
+      <td colspan="3">
+        <div class="ui form">
+          <textarea id="rollsText" readonly rows="5"></textarea>
+        </div>
+        <button class="ui button table-button" onclick="document.getElementById('rollsText').value = ''" type="button">Reset Console</button>
+        <p class="table-label" id="recentRoll">Most recent result: </p>
+        <p class="table-label" id="totalRollsP">You've rolled 0 dice</p>
+      </td>
+      <td colspan="3">
+        <div class="ui form">
+          <textarea id="notes" rows="10"> Notes: </textarea>
+        </div>
+      </td>
+    </tr>
+
+    <!--Stat Row-->
+    <tr class="modTR">
+      <td>
+        <div class="ui input table-input">
+          <input id="Prf" onchange="updateAll()" type="number" value="0" min="-100" max="100">
+        </div>
+        <p class="table-label">Prof&zwnj;iciency</p>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="Spl" onchange="updateAll()" type="number" value="0" min="-100" max="100">
+        </div>
+        <p class="table-label">Spell Atk</p>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="Itv" onchange="updateAll()" type="number" value="0" min="-100" max="100">
+        </div>
+        <p class="table-label">Initiative</p>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="Str" onchange="updateAll()" type="number" value="0" min="-100" max="100">
+        </div>
+        <p class="table-label">Str</p>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="Dex" onchange="updateAll()" type="number" value="0" min="-100" max="100">
+        </div>
+        <p class="table-label">Dex</p>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="Con" onchange="updateAll()" type="number" value="0" min="-100" max="100">
+        </div>
+        <p class="table-label">Con</p>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="Int" onchange="updateAll()" type="number" value="0" min="-100" max="100">
+        </div>
+        <p class="table-label">Int</p>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="Wis" onchange="updateAll()" type="number" value="0" min="-100" max="100">
+        </div>
+        <p class="table-label">Wis</p>
+      </td>
+      <td>
+        <div class="ui input table-input">
+          <input id="Cha" onchange="updateAll()" type="number" value="0" min="-100" max="100">
+        </div>
+        <p class="table-label">Cha</p>
+      </td>
+    </tr>
+  </tb>
+</table>
+<button class="ui table-button" id="simpleButton">Simple</button>
+
+<!--Footer-->
+<hr class="footer-break">
+<div class="ui stackable borderless three item menu no-ui-lines footer-menu">
+  <!--Contact Button-->
+  <div class="item">
+    <a class="hover-connect" href="mailto:support@rgbstudios.org?Subject=Regarding%20RGB%20Studios" onmouseover="document.getElementById('footer-contact-icon').src='../../assets/icons/social/mail-open.svg';" onmouseout="document.getElementById('footer-contact-icon').src='../../assets/icons/social/mail-closed.svg';">
+      <p class="footer-text">Contact</p>
+      <img class="ui image footer-image" id="footer-contact-icon" src="../../assets/icons/social/mail-closed.svg" onmouseover="this.src='../../assets/icons/social/mail-open.svg';" onmouseout="this.src='../assets/icons/social/mail-closed.svg';">
+    </a>
+  </div>
+  <!--Page Top Button-->
+  <div class="item">
+    <a class="footer-text" href="#top">Back to top</a>
+  </div>
+  <!--RGB Studios Button-->
+  <div class="item">
+    <a class="hover-connect" href="../">
+      <img class="ui image footer-image" src="../../assets/icons/rgb/rgb-icon.svg">
+      <p class="footer-text">RGB Studios</p>
+    </a>
+  </div>
+</div>
+
+<!--Color Loading Scripts-->
+<script>
+  var colors = ["#c66", "#6c6", "#66c"];
+  var lightColors = ["#e6b3b3", "#b3e6b3", "#b3b3e6"];
+  var randColor = random(0, 2);
+  var styles = ["red", "green", "blue"];
+
+  document.getElementById("theme").href = "../../assets/themes/" + styles[randColor] + ".css";
+  document.getElementById("meta1").content = colors[randColor];
+  document.getElementById("meta2").content = colors[randColor];
+  document.getElementById("meta3").content = colors[randColor];
+
+  function random(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+</script>
+</body>
+</html>
