@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15376c2f-d0d4-4bea-95ab-bbe60b5be86a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/utilities/intersectCalc_logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DnD/Dice Roller/dice-script.js" afterPath="$PROJECT_DIR$/DnD/Dice Roller/dice-script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DnD/index.html" afterPath="$PROJECT_DIR$/DnD/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Learn/index.html" afterPath="$PROJECT_DIR$/Learn/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/index.html" afterPath="$PROJECT_DIR$/Themes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Utilities/index.html" afterPath="$PROJECT_DIR$/Utilities/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,21 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DnD/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="76" column="12" lean-forward="true" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+            <state relative-caret-position="308">
+              <caret line="62" column="83" lean-forward="false" selection-start-line="62" selection-start-column="83" selection-end-line="62" selection-end-column="83" />
               <folding>
-                <element signature="e#3132#3138#0" expanded="true" />
-                <element signature="e#3629#3635#0" expanded="true" />
-                <element signature="e#3807#3813#0" expanded="true" />
+                <element signature="e#3171#3177#0" expanded="true" />
+                <element signature="e#3668#3674#0" expanded="true" />
+                <element signature="e#3846#3852#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Learn/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
@@ -177,8 +170,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Themes/index.html" />
         <option value="$PROJECT_DIR$/Utilities/index.html" />
-        <option value="$PROJECT_DIR$/DnD/index.html" />
         <option value="$PROJECT_DIR$/Learn/index.html" />
+        <option value="$PROJECT_DIR$/DnD/index.html" />
       </list>
     </option>
   </component>
@@ -195,7 +188,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -367,7 +360,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -421,9 +414,9 @@
         <state relative-caret-position="1241">
           <caret line="73" column="81" lean-forward="false" selection-start-line="73" selection-start-column="81" selection-end-line="73" selection-end-column="81" />
           <folding>
-            <element signature="e#3132#3138#0" expanded="true" />
-            <element signature="e#3629#3635#0" expanded="true" />
-            <element signature="e#3807#3813#0" expanded="true" />
+            <element signature="e#3171#3177#0" expanded="true" />
+            <element signature="e#3668#3674#0" expanded="true" />
+            <element signature="e#3846#3852#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -486,9 +479,9 @@
         <state relative-caret-position="1241">
           <caret line="73" column="81" lean-forward="false" selection-start-line="73" selection-start-column="81" selection-end-line="73" selection-end-column="81" />
           <folding>
-            <element signature="e#3132#3138#0" expanded="true" />
-            <element signature="e#3629#3635#0" expanded="true" />
-            <element signature="e#3807#3813#0" expanded="true" />
+            <element signature="e#3171#3177#0" expanded="true" />
+            <element signature="e#3668#3674#0" expanded="true" />
+            <element signature="e#3846#3852#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -754,23 +747,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DnD/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="76" column="12" lean-forward="true" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
-          <folding>
-            <element signature="e#3132#3138#0" expanded="true" />
-            <element signature="e#3629#3635#0" expanded="true" />
-            <element signature="e#3807#3813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Learn/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="60" column="18" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DnD/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="62" column="83" lean-forward="false" selection-start-line="62" selection-start-column="83" selection-end-line="62" selection-end-column="83" />
+          <folding>
+            <element signature="e#3171#3177#0" expanded="true" />
+            <element signature="e#3668#3674#0" expanded="true" />
+            <element signature="e#3846#3852#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
