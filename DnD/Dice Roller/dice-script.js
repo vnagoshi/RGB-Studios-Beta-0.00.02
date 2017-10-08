@@ -72,7 +72,7 @@ window.onload = function() {
     }
   }
 
-  //TODO: get to type dash in mod and not refresh page if enter in num dice input
+  //TODO: get to type dash in mod (negatives)
   var numberInputNames = ["numD4", "numD6", "numD8", "numD12", "numD20", "numcustom", "customSides", "D4Mod", "D6Mod", "D8Mod", "D12Mod", "D20Mod", "customMod", "D4Multiplier", "D4Multiplier", "D6Multiplier", "D8Multiplier", "D12Multiplier", "D20Multiplier", "customMultiplier", "Prf", "Spl", "Itv", "Str", "Dex", "Con", "Int", "Wis", "Cha"];
   for(var i = 0; i < numberInputNames.length; i++) {
     document.getElementById(numberInputNames[i]).onkeypress =

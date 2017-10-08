@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15376c2f-d0d4-4bea-95ab-bbe60b5be86a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DnD/Dice Roller/dice-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/icons/utilities/intersectCalc_logo.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DnD/Dice Roller/dice-script.js" afterPath="$PROJECT_DIR$/DnD/Dice Roller/dice-script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DnD/index.html" afterPath="$PROJECT_DIR$/DnD/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Learn/index.html" afterPath="$PROJECT_DIR$/Learn/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Themes/index.html" afterPath="$PROJECT_DIR$/Themes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/icons/utilities/doodle_icon.svg" afterPath="$PROJECT_DIR$/assets/icons/utilities/doodle_icon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Utilities/index.html" afterPath="$PROJECT_DIR$/Utilities/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +23,30 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="153" column="43" lean-forward="false" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
+            <state relative-caret-position="1354">
+              <caret line="180" column="9" lean-forward="true" selection-start-line="180" selection-start-column="9" selection-end-line="180" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utilities/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="878">
+              <caret line="113" column="12" lean-forward="true" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
+              <folding>
+                <element signature="e#5712#5718#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Themes/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="742">
+              <caret line="88" column="29" lean-forward="false" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -31,7 +55,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="1258">
               <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
               <folding />
             </state>
@@ -41,12 +65,23 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DnD/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="73" column="81" lean-forward="false" selection-start-line="73" selection-start-column="81" selection-end-line="73" selection-end-column="81" />
+            <state relative-caret-position="631">
+              <caret line="76" column="12" lean-forward="true" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
               <folding>
                 <element signature="e#3132#3138#0" expanded="true" />
                 <element signature="e#3629#3635#0" expanded="true" />
+                <element signature="e#3807#3813#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Learn/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="60" column="18" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,8 +89,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DnD/Dice Roller/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="355" column="37" lean-forward="false" selection-start-line="355" selection-start-column="37" selection-end-line="355" selection-end-column="37" />
+            <state relative-caret-position="529">
+              <caret line="159" column="22" lean-forward="true" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
               <folding>
                 <element signature="n#svg#0;n#td#1;n#tr#1;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#g#0;n#svg#0;n#td#2;n#tr#1;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -85,18 +120,18 @@
       <file leaf-file-name="dice-script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DnD/Dice Roller/dice-script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="-3661">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DnD/Dice Roller/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -131,19 +166,19 @@
         <option value="$PROJECT_DIR$/assets/themes/green.css" />
         <option value="$PROJECT_DIR$/assets/themes/blue.css" />
         <option value="$PROJECT_DIR$/About Us.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/AMVs/index.html" />
         <option value="$PROJECT_DIR$/Games/index.html" />
-        <option value="$PROJECT_DIR$/Utilities/index.html" />
-        <option value="$PROJECT_DIR$/Learn/index.html" />
         <option value="$PROJECT_DIR$/About Us/index.html" />
         <option value="$PROJECT_DIR$/New Projects/index.html" />
-        <option value="$PROJECT_DIR$/DnD/index.html" />
-        <option value="$PROJECT_DIR$/Themes/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/DnD/Dice Roller/style.css" />
         <option value="$PROJECT_DIR$/DnD/Dice Roller/dice-script.js" />
         <option value="$PROJECT_DIR$/DnD/Dice Roller/index.html" />
-        <option value="$PROJECT_DIR$/DnD/Dice Roller/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Themes/index.html" />
+        <option value="$PROJECT_DIR$/Utilities/index.html" />
+        <option value="$PROJECT_DIR$/DnD/index.html" />
+        <option value="$PROJECT_DIR$/Learn/index.html" />
       </list>
     </option>
   </component>
@@ -160,9 +195,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="728" />
-    <option name="y" value="125" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -184,14 +218,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="RGB-Studios-Beta-0.00.02" type="b2602c69:ProjectViewProjectNode" />
               <item name="RGB-Studios-Beta-0.00.02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RGB-Studios-Beta-0.00.02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RGB-Studios-Beta-0.00.02" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RGB-Studios-Beta-0.00.02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RGB-Studios-Beta-0.00.02" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RGB-Studios-Beta-0.00.02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RGB-Studios-Beta-0.00.02" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RGB-Studios-Beta-0.00.02" type="b2602c69:ProjectViewProjectNode" />
@@ -207,13 +260,22 @@
             <path>
               <item name="RGB-Studios-Beta-0.00.02" type="b2602c69:ProjectViewProjectNode" />
               <item name="RGB-Studios-Beta-0.00.02" type="462c0819:PsiDirectoryNode" />
+              <item name="Learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RGB-Studios-Beta-0.00.02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RGB-Studios-Beta-0.00.02" type="462c0819:PsiDirectoryNode" />
               <item name="Themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RGB-Studios-Beta-0.00.02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RGB-Studios-Beta-0.00.02" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,17 +288,17 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nagoshi\Desktop\GitHub\RGB-Studios-Beta-0.00.02\assets\icons\utilities" />
+      <recent name="C:\Users\Nagoshi\Desktop\GitHub\RGB-Studios-Beta-0.00.02\assets\icons\dnd" />
+      <recent name="C:\Users\Nagoshi\Desktop\GitHub\RGB-Studios-Beta-0.00.02" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Nagoshi\Desktop\GitHub\RGB-Studios-Beta-0.00.02\assets\icons\utilities" />
       <recent name="C:\Users\Nagoshi\Desktop\GitHub\RGB-Studios-Beta-0.00.02\assets\icons\themes" />
       <recent name="C:\Users\Nagoshi\Desktop\GitHub\RGB-Studios-Beta-0.00.02\assets\icons\dnd" />
       <recent name="C:\Users\Nagoshi\Desktop\GitHub\RGB-Studios-Beta-0.00.02\assets\icons\amvs" />
       <recent name="C:\Users\Nagoshi\Desktop\GitHub\RGB-Studios-Beta-0.00.02\About Us" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Nagoshi\Desktop\GitHub\RGB-Studios-Beta-0.00.02\assets\icons\utilities" />
-      <recent name="C:\Users\Nagoshi\Desktop\GitHub\RGB-Studios-Beta-0.00.02\assets\icons\dnd" />
-      <recent name="C:\Users\Nagoshi\Desktop\GitHub\RGB-Studios-Beta-0.00.02" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -305,19 +367,19 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33402923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -340,6 +402,79 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2601">
+          <caret line="153" column="43" lean-forward="false" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DnD/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="81" lean-forward="false" selection-start-line="73" selection-start-column="81" selection-end-line="73" selection-end-column="81" />
+          <folding>
+            <element signature="e#3132#3138#0" expanded="true" />
+            <element signature="e#3629#3635#0" expanded="true" />
+            <element signature="e#3807#3813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DnD/Dice Roller/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6035">
+          <caret line="355" column="37" lean-forward="false" selection-start-line="355" selection-start-column="37" selection-end-line="355" selection-end-column="37" />
+          <folding>
+            <element signature="n#svg#0;n#td#1;n#tr#1;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#g#0;n#svg#0;n#td#2;n#tr#1;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#g#0;n#svg#0;n#td#3;n#tr#1;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#g#0;n#svg#0;n#td#4;n#tr#1;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#g#0;n#svg#0;n#td#5;n#tr#1;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#7038#7044#0" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#td#1;n#tr#4;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#td#1;n#tr#4;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#td#2;n#tr#4;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#td#2;n#tr#4;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#td#3;n#tr#4;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#td#3;n#tr#4;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#td#4;n#tr#4;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#td#4;n#tr#4;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#td#5;n#tr#4;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#td#5;n#tr#4;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#td#6;n#tr#4;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#td#6;n#tr#4;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#5;n#div#0;n#td#0;n#tr#6;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19953#19959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DnD/Dice Roller/dice-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DnD/Dice Roller/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -353,6 +488,7 @@
           <folding>
             <element signature="e#3132#3138#0" expanded="true" />
             <element signature="e#3629#3635#0" expanded="true" />
+            <element signature="e#3807#3813#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -489,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learn/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="75" column="50" lean-forward="false" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/icons/utilities/numConvert_icon.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -510,20 +639,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/New Projects/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="66" column="77" lean-forward="false" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
-          <folding>
-            <element signature="e#3115#3121#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -541,23 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="125" column="8" lean-forward="true" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
-          <folding>
-            <element signature="e#3227#3233#0" expanded="false" />
-            <element signature="e#3719#3725#0" expanded="false" />
-            <element signature="e#4195#4201#0" expanded="false" />
-            <element signature="e#4676#4682#0" expanded="false" />
-            <element signature="e#5160#5166#0" expanded="false" />
-            <element signature="e#5670#5676#0" expanded="false" />
-            <element signature="e#6106#6112#0" expanded="false" />
-            <element signature="e#6642#6648#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/icons/utilities/doodle_icon.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -567,35 +669,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="1258">
           <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DnD/Dice Roller/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DnD/Dice Roller/dice-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3661">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons/utilities/intersectCalc_logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="153" column="43" lean-forward="false" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
+        <state relative-caret-position="1354">
+          <caret line="180" column="9" lean-forward="true" selection-start-line="180" selection-start-column="9" selection-end-line="180" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DnD/index.html">
+    <entry file="file://$PROJECT_DIR$/Utilities/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="73" column="81" lean-forward="false" selection-start-line="73" selection-start-column="81" selection-end-line="73" selection-end-column="81" />
+        <state relative-caret-position="878">
+          <caret line="113" column="12" lean-forward="true" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
           <folding>
-            <element signature="e#3132#3138#0" expanded="true" />
-            <element signature="e#3629#3635#0" expanded="true" />
+            <element signature="e#5712#5718#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DnD/Dice Roller/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="355" column="37" lean-forward="false" selection-start-line="355" selection-start-column="37" selection-end-line="355" selection-end-column="37" />
+        <state relative-caret-position="529">
+          <caret line="159" column="22" lean-forward="true" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
           <folding>
             <element signature="n#svg#0;n#td#1;n#tr#1;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#g#0;n#svg#0;n#td#2;n#tr#1;n#tb#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -621,18 +746,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DnD/Dice Roller/dice-script.js">
+    <entry file="file://$PROJECT_DIR$/Themes/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state relative-caret-position="742">
+          <caret line="88" column="29" lean-forward="false" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DnD/Dice Roller/style.css">
+    <entry file="file://$PROJECT_DIR$/DnD/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="631">
+          <caret line="76" column="12" lean-forward="true" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+          <folding>
+            <element signature="e#3132#3138#0" expanded="true" />
+            <element signature="e#3629#3635#0" expanded="true" />
+            <element signature="e#3807#3813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learn/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="60" column="18" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
           <folding />
         </state>
       </provider>
